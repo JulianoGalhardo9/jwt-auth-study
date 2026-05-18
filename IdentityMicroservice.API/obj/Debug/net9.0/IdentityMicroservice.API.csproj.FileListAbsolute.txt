@@ -39,3 +39,9 @@
 /Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.API/obj/Debug/net9.0/IdentityMicroservice.API.pdb
 /Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.API/obj/Debug/net9.0/IdentityMicroservice.API.genruntimeconfig.cache
 /Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.API/obj/Debug/net9.0/ref/IdentityMicroservice.API.dll
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.API/bin/Debug/net9.0/BCrypt-Net-Next.dll
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.API/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.API/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.API/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.API/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.API/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
