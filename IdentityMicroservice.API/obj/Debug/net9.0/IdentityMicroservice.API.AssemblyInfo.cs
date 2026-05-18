@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("IdentityMicroservice.Application")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("IdentityMicroservice.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c85e913d33642c7f9115fb231d2d16b854e7c5f4")]
-[assembly: System.Reflection.AssemblyProductAttribute("IdentityMicroservice.Application")]
-[assembly: System.Reflection.AssemblyTitleAttribute("IdentityMicroservice.Application")]
+[assembly: System.Reflection.AssemblyProductAttribute("IdentityMicroservice.API")]
+[assembly: System.Reflection.AssemblyTitleAttribute("IdentityMicroservice.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

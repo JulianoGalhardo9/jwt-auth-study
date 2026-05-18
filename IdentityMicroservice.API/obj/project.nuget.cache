@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "SsuseomBz3E=",
+  "dgSpecHash": "2MH3wDXaLeI=",
   "success": true,
   "projectFilePath": "/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.API/IdentityMicroservice.API.csproj",
   "expectedPackageFiles": [
     "/Users/julianogalhardo/.nuget/packages/bcrypt.net-next/4.2.0/bcrypt.net-next.4.2.0.nupkg.sha512",
     "/Users/julianogalhardo/.nuget/packages/fluentvalidation/12.1.1/fluentvalidation.12.1.1.nupkg.sha512",
     "/Users/julianogalhardo/.nuget/packages/fluentvalidation.dependencyinjectionextensions/12.1.1/fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+    "/Users/julianogalhardo/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/9.0.16/microsoft.aspnetcore.authentication.jwtbearer.9.0.16.nupkg.sha512",
     "/Users/julianogalhardo/.nuget/packages/microsoft.aspnetcore.openapi/9.0.14/microsoft.aspnetcore.openapi.9.0.14.nupkg.sha512",
     "/Users/julianogalhardo/.nuget/packages/microsoft.entityframeworkcore/9.0.16/microsoft.entityframeworkcore.9.0.16.nupkg.sha512",
     "/Users/julianogalhardo/.nuget/packages/microsoft.entityframeworkcore.abstractions/9.0.16/microsoft.entityframeworkcore.abstractions.9.0.16.nupkg.sha512",
@@ -23,6 +24,8 @@
     "/Users/julianogalhardo/.nuget/packages/microsoft.identitymodel.abstractions/8.18.0/microsoft.identitymodel.abstractions.8.18.0.nupkg.sha512",
     "/Users/julianogalhardo/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.18.0/microsoft.identitymodel.jsonwebtokens.8.18.0.nupkg.sha512",
     "/Users/julianogalhardo/.nuget/packages/microsoft.identitymodel.logging/8.18.0/microsoft.identitymodel.logging.8.18.0.nupkg.sha512",
+    "/Users/julianogalhardo/.nuget/packages/microsoft.identitymodel.protocols/8.0.1/microsoft.identitymodel.protocols.8.0.1.nupkg.sha512",
+    "/Users/julianogalhardo/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/8.0.1/microsoft.identitymodel.protocols.openidconnect.8.0.1.nupkg.sha512",
     "/Users/julianogalhardo/.nuget/packages/microsoft.identitymodel.tokens/8.18.0/microsoft.identitymodel.tokens.8.18.0.nupkg.sha512",
     "/Users/julianogalhardo/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512",
     "/Users/julianogalhardo/.nuget/packages/system.identitymodel.tokens.jwt/8.18.0/system.identitymodel.tokens.jwt.8.18.0.nupkg.sha512"
