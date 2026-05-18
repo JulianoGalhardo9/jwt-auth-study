@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IdentityMicroservice.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14577e3121b98a991648d2d80f183ed182f62d78")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85f00e84743094204415421b2479cc425d97c2a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("IdentityMicroservice.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IdentityMicroservice.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
