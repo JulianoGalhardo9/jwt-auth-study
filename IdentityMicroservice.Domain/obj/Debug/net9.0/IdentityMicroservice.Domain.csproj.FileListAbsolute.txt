@@ -1,0 +1,12 @@
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.Domain/bin/Debug/net9.0/IdentityMicroservice.Domain.deps.json
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.Domain/bin/Debug/net9.0/IdentityMicroservice.Domain.dll
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.Domain/bin/Debug/net9.0/IdentityMicroservice.Domain.pdb
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.Domain/obj/Debug/net9.0/IdentityMicroservice.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.Domain/obj/Debug/net9.0/IdentityMicroservice.Domain.AssemblyInfoInputs.cache
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.Domain/obj/Debug/net9.0/IdentityMicroservice.Domain.AssemblyInfo.cs
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.Domain/obj/Debug/net9.0/IdentityMicroservice.Domain.csproj.CoreCompileInputs.cache
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.Domain/obj/Debug/net9.0/IdentityMicroservice.Domain.sourcelink.json
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.Domain/obj/Debug/net9.0/IdentityMicroservice.Domain.dll
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.Domain/obj/Debug/net9.0/refint/IdentityMicroservice.Domain.dll
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.Domain/obj/Debug/net9.0/IdentityMicroservice.Domain.pdb
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.Domain/obj/Debug/net9.0/ref/IdentityMicroservice.Domain.dll
