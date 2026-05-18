@@ -12,6 +12,7 @@ using IdentityMicroservice.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using IdentityMicroservice.Application.Users.Commands.Refresh;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,6 +32,8 @@ builder.Services.AddScoped<RegisterUserCommandHandler>();
 builder.Services.AddScoped<LoginUserCommandHandler>();
 
 builder.Services.AddValidatorsFromAssemblyContaining(typeof(RegisterUserCommand));
+
+builder.Services.AddScoped<RefreshTokenCommandHandler>();
 
 var jwtSettings = builder.Configuration.GetSection("Jwt").Get<JwtOptions>();
 var key = Encoding.UTF8.GetBytes(jwtSettings!.SecretKey);

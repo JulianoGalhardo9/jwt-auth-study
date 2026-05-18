@@ -11,5 +11,11 @@ public static class DomainErrors
 
         public static readonly Error InvalidCredentials = new(
             "User.InvalidCredentials", "E-mail ou senha incorretos.");
+
+        public static readonly Error InvalidToken = new(
+            "User.InvalidToken", "O Refresh Token fornecido é inválido.");
+
+        public static readonly Error TokenExpired = new(
+            "User.TokenExpired", "O Refresh Token fornecido já expirou. Faça login novamente.");
     }
 }

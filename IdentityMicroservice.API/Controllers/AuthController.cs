@@ -1,6 +1,7 @@
 using FluentValidation;
 using IdentityMicroservice.Application.DTOs;
 using IdentityMicroservice.Application.Users.Commands.Login;
+using IdentityMicroservice.Application.Users.Commands.Refresh;
 using IdentityMicroservice.Application.Users.Commands.Register;
 using Microsoft.AspNetCore.Mvc;
 
@@ -13,12 +14,16 @@ public class AuthController : ControllerBase
     private readonly RegisterUserCommandHandler _registerHandler;
     private readonly LoginUserCommandHandler _loginHandler;
 
+    private readonly RefreshTokenCommandHandler _refreshHandler;
+
     public AuthController(
         RegisterUserCommandHandler registerHandler,
-        LoginUserCommandHandler loginHandler)
+        LoginUserCommandHandler loginHandler,
+        RefreshTokenCommandHandler refreshHandler)
     {
         _registerHandler = registerHandler;
         _loginHandler = loginHandler;
+        _refreshHandler = refreshHandler;
     }
 
     [HttpPost("register")]
@@ -29,7 +34,7 @@ public class AuthController : ControllerBase
     {
         var command = new RegisterUserCommand(request.Name, request.Email, request.Password);
         var validationResult = await validator.ValidateAsync(command, cancellationToken);
-        
+
         if (!validationResult.IsValid)
         {
             return BadRequest(validationResult.Errors.Select(e => new { e.PropertyName, e.ErrorMessage }));
@@ -64,6 +69,26 @@ public class AuthController : ControllerBase
         if (result.IsFailure)
         {
             return Unauthorized(new { error = result.Error.Code, description = result.Error.Description });
+        }
+
+        return Ok(result.Value);
+    }
+
+    [HttpPost("refresh")]
+    public async Task<IActionResult> Refresh(
+    [FromBody] RefreshTokenCommand command,
+    CancellationToken cancellationToken)
+    {
+        if (string.IsNullOrWhiteSpace(command.RefreshToken))
+        {
+            return BadRequest(new { error = "Argument.Required", description = "O Refresh Token é obrigatório." });
+        }
+
+        var result = await _refreshHandler.HandleAsync(command, cancellationToken);
+
+        if (result.IsFailure)
+        {
+            return BadRequest(new { error = result.Error.Code, description = result.Error.Description });
         }
 
         return Ok(result.Value);

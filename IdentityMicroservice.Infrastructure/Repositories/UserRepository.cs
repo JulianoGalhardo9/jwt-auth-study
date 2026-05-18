@@ -38,4 +38,9 @@ public class UserRepository : IUserRepository
     {
         _context.Users.Update(user);
     }
+
+    public async Task<User?> GetByRefreshTokenAsync(string refreshToken, CancellationToken cancellationToken = default)
+{
+    return await _context.Users.FirstOrDefaultAsync(u => u.RefreshToken == refreshToken, cancellationToken);
+}
 }

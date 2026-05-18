@@ -4,3 +4,15 @@
 /Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.Infrastructure/obj/Debug/net9.0/IdentityMicroservice.Infrastructure.AssemblyInfo.cs
 /Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.Infrastructure/obj/Debug/net9.0/IdentityMicroservice.Infrastructure.csproj.CoreCompileInputs.cache
 /Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.Infrastructure/obj/Debug/net9.0/IdentityMicroservice.Infrastructure.sourcelink.json
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.Infrastructure/bin/Debug/net9.0/IdentityMicroservice.Infrastructure.deps.json
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.Infrastructure/bin/Debug/net9.0/IdentityMicroservice.Infrastructure.dll
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.Infrastructure/bin/Debug/net9.0/IdentityMicroservice.Infrastructure.pdb
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.Infrastructure/bin/Debug/net9.0/IdentityMicroservice.Application.dll
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.Infrastructure/bin/Debug/net9.0/IdentityMicroservice.Domain.dll
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.Infrastructure/bin/Debug/net9.0/IdentityMicroservice.Domain.pdb
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.Infrastructure/bin/Debug/net9.0/IdentityMicroservice.Application.pdb
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.Infrastructure/obj/Debug/net9.0/Identity.8E416E11.Up2Date
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.Infrastructure/obj/Debug/net9.0/IdentityMicroservice.Infrastructure.dll
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.Infrastructure/obj/Debug/net9.0/refint/IdentityMicroservice.Infrastructure.dll
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.Infrastructure/obj/Debug/net9.0/IdentityMicroservice.Infrastructure.pdb
+/Users/julianogalhardo/Documents/IdentityMicroservice/IdentityMicroservice.Infrastructure/obj/Debug/net9.0/ref/IdentityMicroservice.Infrastructure.dll
